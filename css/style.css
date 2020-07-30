@@ -1,0 +1,114 @@
+*{
+    border: 1px dashed red;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-box .logo{
+    width: 100%;
+}
+.logo-box{
+    width:6rem ;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 4.5vw; /*asi es responsive sin media Queryes Pero cambiar para mobile*/
+}
+
+main .img-box .main-img{
+    max-width:100%;
+    
+  
+    
+}
+.img-box{
+    margin: 0rem 15%; /*sacar en mobile*/
+    
+}
+
+.main-content{
+    margin: 2% 15% ;/*sacar margenes costados en mobile*/
+}
+.main-content h2{
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2.7vw;
+    
+}
+
+.p1{
+    font-size: 1.4rem;/*cambiar para mobile*/
+    
+}
+.p2, .p3{
+    font-size: 1.2rem;
+}
+
+.items {
+   
+    text-align: center;
+    
+}
+.items ul{
+    margin: 0 auto;
+}
+.items ul li{
+    list-style: none;
+    margin: 1rem;
+    width: 60%;
+    
+}
+/*cambiar en mobile*/
+ .items ul li{
+    list-style-image: url('../img/img-corazon3.png');  
+     
+    
+ }   
+.ulUno{
+    display: inline-block;
+    width: 40%;
+}
+
+.ulDos{
+    display: inline-block;
+    width: 40%;
+}
+
+.link-box{
+    text-align: center;
+    margin: 5% 0%;
+
+}
+
+
+.link{
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;/*funciona por el inline-block, es decir, sigue siendo inline*/
+    background-color:#D81CCA;
+    width: 30%; /** en bobile cambiar a 40% probar*/
+    padding: 2% 0%;
+    border-radius: 3%;
+   
+}
+
+
+.p2 .link-unsubscribe{
+
+    text-decoration: none;
+    color:#D81CCA;
+    font-weight: 600;
+    
+}
+
+.p3 span{
+    font-weight: 800;
+}
